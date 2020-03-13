@@ -5,7 +5,7 @@ pipeline {
 	   steps { 
 		sh '''
 		  echo "hi this is multiline shell script"
-		  ls -lah
+		  ls -la /var/lib/jenkins
 		   '''
 		}
 	}
